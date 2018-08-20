@@ -1,5 +1,7 @@
 package top.banyaoqiang.rpcserver.register;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
@@ -12,6 +14,7 @@ import java.util.Map;
  * Created by 班耀强 on 2018/8/9
  */
 public final class ServiceRegister {
+    private static final Logger logger = LoggerFactory.getLogger(ServiceRegister.class);
     private static final boolean DEBUG = true;
     private static final String CONTEXT_XML_PATH = "service_context.xml";
 
@@ -32,7 +35,7 @@ public final class ServiceRegister {
         }
 
         if (DEBUG) {
-            for (String ss : services.keySet()) System.out.println(ss);
+            for (String ss : services.keySet()) logger.debug("发现服务 {}", ss);
         }
     }
 
