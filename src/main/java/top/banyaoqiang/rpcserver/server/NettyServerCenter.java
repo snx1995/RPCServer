@@ -5,20 +5,20 @@ import io.netty.channel.*;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.serialization.ClassResolvers;
-import io.netty.handler.codec.serialization.ObjectDecoder;
-import io.netty.handler.codec.serialization.ObjectEncoder;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import top.banyaoqiang.RPCApi.common.coder.RPCDecoder;
 import top.banyaoqiang.RPCApi.common.coder.RPCEncoder;
 import top.banyaoqiang.RPCApi.protocal.RPCRequest;
 import top.banyaoqiang.rpcserver.register.ServiceRegister;
 import top.banyaoqiang.rpcserver.server.handler.RPCServerHandler;
-import top.banyaoqiang.rpcserver.server.handler.test.TimeServerHandler;
 
 /**
  * Created by 班耀强 on 2018/7/21
  */
 public class NettyServerCenter {
+    private static final Logger logger = LoggerFactory.getLogger(NettyServerCenter.class);
+
     private int port;
 
     public NettyServerCenter(int port) {
@@ -32,6 +32,7 @@ public class NettyServerCenter {
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
             ServerBootstrap b = new ServerBootstrap();
+            logger.debug("服务器正在启动...");
             b.group(bossGroup, workerGroup)
                     .channel(NioServerSocketChannel.class)
                     .childHandler(new ChannelInitializer<SocketChannel>() {
@@ -47,14 +48,22 @@ public class NettyServerCenter {
                     .option(ChannelOption.SO_BACKLOG, 128)
                     .childOption(ChannelOption.SO_KEEPALIVE, true);
             ChannelFuture f = b.bind(port).sync();
+
+            logger.debug("服务器已启动.");
+
             f.channel().closeFuture().sync();
         } finally {
-            workerGroup.shutdownGracefully();
-            bossGroup.shutdownGracefully();
+            workerGroup.shutdownGracefully().sync();
+            bossGroup.shutdownGracefully().sync();
+            logger.debug("服务器已关闭");
         }
     }
 
     public static void main(String[] args) {
-        new NettyServerCenter(54321);
+        try {
+            new NettyServerCenter(54321).run();
+        } catch (Exception e) {
+            logger.error("服务启动失败 {}", e.getMessage());
+        }
     }
 }

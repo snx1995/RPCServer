@@ -25,6 +25,8 @@ public final class ServiceRegister {
      */
     public static void register() {
 
+        logger.debug("开始扫描service");
+
         ApplicationContext context = new ClassPathXmlApplicationContext(CONTEXT_XML_PATH);
         Map<String, Object> s = context.getBeansWithAnnotation(RPCService.class);
         for (Object o : s.values()) {

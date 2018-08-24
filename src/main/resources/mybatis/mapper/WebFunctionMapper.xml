@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="top.banyaoqiang.database.dao.WebFunctionMapper">
+    <resultMap id="BaseResultMap" type="webFunction">
+        <id column="func_id" jdbcType="INTEGER" property="funcId" />
+        <result column="func_level" jdbcType="INTEGER" property="funcLevel" />
+        <result column="parent" jdbcType="INTEGER" property="parent" />
+        <result column="func_name" jdbcType="VARCHAR" property="funcName" />
+        <result column="auth_lv" jdbcType="INTEGER" property="authLv" />
+        <result column="func_url" jdbcType="VARCHAR" property="funcUrl" />
+    </resultMap>
+
+    <sql id="functionColumn" >
+        main_function.func_id, main_function.func_level, main_function.parent,
+        main_function.func_name, main_function.auth_lv, main_function.func_url
+    </sql>
+
+    <select id="selectAll" resultMap="BaseResultMap">
+        select
+        <include refid="functionColumn" />
+        from main_function
+    </select>
+
+    <select id="selectLimitedFunctions" parameterType="int" resultMap="BaseResultMap">
+        select
+        <include refid="functionColumn" />
+        from cloud_user, main_function
+        where cloud_user.id = #{id} and cloud_user.auth_lv <![CDATA[<=]]> main_function.auth_lv
+    </select>
+</mapper>
