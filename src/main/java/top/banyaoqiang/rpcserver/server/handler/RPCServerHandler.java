@@ -37,6 +37,7 @@ public class RPCServerHandler extends ChannelInboundHandlerAdapter {
                     response = new RPCResponse(200, result);
                 } catch (Exception e) {
                     logger.debug("捕获异常 {}", e.getClass().getName());
+                    e.printStackTrace();
                     response = new RPCResponse(500, null);
                     response.setException(e);
                 }

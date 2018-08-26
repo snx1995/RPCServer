@@ -2,70 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb966b44-a853-4696-b12a-2d2ba96d9fec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/4e1a7deb-ec73-41cd-a393-4e59c5e56e5b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/DatabaseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/AuthorLevelMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/WebFunctionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/mybatis/MybatisProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/system/SystemConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/AuthorLevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/WebFunctionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/syncMappers.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/server/service/UserAuthorityServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/mybatis/mapper/AuthorLevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/mybatis/mapper/WebFunctionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/service_context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/AuthorLevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/WebFunctionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/database/Database.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/database/DatabaseFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/database/dao/AuthorLevelMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/database/dao/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/database/dao/WebFunctionMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/database/mybatis/MybatisProxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/system/SystemConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/mybatis/mapper/AuthorLevelMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/mybatis/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/mybatis/mapper/WebFunctionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/server/service/UserAuthorityServiceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/service_context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Snxt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Snxt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4e1a7deb-ec73-41cd-a393-4e59c5e56e5b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4e1a7deb-ec73-41cd-a393-4e59c5e56e5b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/register/ServiceRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/register/ServiceRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/NettyServerCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/NettyServerCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/decoder/RPCRequestDecoder.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/RPCServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/RPCServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/test/DiscardServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/test/TimeServerHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/account/UserAuthorityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/account/UserAuthorityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/server/RPCServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/server/RPCServerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/register/ServiceRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/register/ServiceRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/server/NettyServerCenter$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/server/NettyServerCenter$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/server/NettyServerCenter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/server/NettyServerCenter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/mybatis/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/server/handler/RPCServerHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/server/handler/RPCServerHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/server/handler/test/DiscardServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/server/handler/test/TimeServerHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/service/account/UserAuthorityServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/service/account/UserAuthorityServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/server/RPCServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/server/RPCServerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/mybatis/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/mybatis/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -112,6 +58,13 @@
         <item name="byq: schema" type="c314c289:MysqlImplModel$Schema" />
         <item name="cloud_user: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="byq@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="byq: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="score_log: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -119,9 +72,9 @@
     <session id="506525519">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.1" value="9" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="2" />
@@ -129,11 +82,14 @@
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="6" />
+          <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="35" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -141,21 +97,21 @@
           <entry key="cell" value="372" />
           <entry key="dummy" value="31" />
           <entry key="gitignore" value="18" />
-          <entry key="java" value="10421" />
+          <entry key="java" value="10467" />
           <entry key="json" value="126" />
           <entry key="sql" value="50" />
           <entry key="txt" value="23" />
-          <entry key="xml" value="3020" />
+          <entry key="xml" value="3119" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10421" />
+          <entry key="JAVA" value="10467" />
           <entry key="JSON" value="126" />
           <entry key="PLAIN_TEXT" value="72" />
-          <entry key="SQL" value="97" />
+          <entry key="SQL" value="98" />
           <entry key="Scratch" value="372" />
-          <entry key="XML" value="2973" />
+          <entry key="XML" value="3071" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -166,30 +122,30 @@
       <usages-collector id="statistics.php.new.class" />
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="auth_level" value="1" />
+          <entry key="auth_level" value="2" />
           <entry key="class" value="8" />
-          <entry key="cloud_user" value="9" />
+          <entry key="cloud_user" value="10" />
           <entry key="dtd" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="77" />
+          <entry key="java" value="81" />
           <entry key="json" value="1" />
           <entry key="main_function" value="2" />
           <entry key="properties" value="3" />
           <entry key="sql" value="1" />
-          <entry key="xml" value="19" />
+          <entry key="xml" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
           <entry key="DTD" value="1" />
-          <entry key="Database Element" value="12" />
-          <entry key="JAVA" value="77" />
+          <entry key="Database Element" value="14" />
+          <entry key="JAVA" value="81" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="3" />
           <entry key="Scratch" value="1" />
-          <entry key="XML" value="19" />
+          <entry key="XML" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -199,23 +155,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/account/UserAuthorityServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+            <state relative-caret-position="312">
+              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/mybatis/MybatisProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#loginByJDBC#0;class#UserAuthorityServiceImpl#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/RPCServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/mybatis/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="912">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/WebFunctionMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -223,41 +196,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/server/RPCServerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-358">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/NettyServerCenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-317">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/Database.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -265,7 +214,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/ServerCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="168">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
@@ -350,13 +299,13 @@
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/DatabaseFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/mybatis/MybatisProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/mybatis/MybatisClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/NettyServerCenter.java" />
         <option value="$PROJECT_DIR$/src/test/java/server/RPCServerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/RPCServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/account/UserAuthorityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/RPCServerHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml" />
       </list>
     </option>
   </component>
@@ -396,12 +345,13 @@
       <select />
     </treeState>
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="532" />
-    <option name="width" value="1395" />
+    <option name="x" value="559" />
+    <option name="width" value="1368" />
     <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -414,8 +364,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -700,6 +648,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -710,7 +660,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535118853835" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535266362481" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="E:/Environments/libs/mysql-connector-java-8.0.12/mysql-connector-java-8.0.12.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -876,50 +826,55 @@
       <workItem from="1535024626924" duration="734000" />
       <workItem from="1535074727900" duration="3198000" />
       <workItem from="1535088564067" duration="7068000" />
-      <workItem from="1535107930987" duration="7858000" />
+      <workItem from="1535107930987" duration="8128000" />
+      <workItem from="1535163748450" duration="2108000" />
+      <workItem from="1535192549749" duration="3365000" />
+      <workItem from="1535240993130" duration="4939000" />
+      <workItem from="1535275629951" duration="677000" />
+      <workItem from="1535277387852" duration="337000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="testMybatis - 2018.08.24 at 14h 59m 35s.xml">
-      <configuration name="testMybatis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testMybatis - 2018.08.24 at 15h 04m 16s.xml">
-      <configuration name="testMybatis" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="testServerCenter - 2018.08.24 at 15h 24m 50s.xml">
+    <history-entry file="testServerCenter - 2018.08.25 at 21h 22m 39s.xml">
       <configuration name="testServerCenter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testServerCenter - 2018.08.24 at 15h 27m 09s.xml">
+    <history-entry file="testServerCenter - 2018.08.26 at 10h 10m 02s.xml">
       <configuration name="testServerCenter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testServerCenter - 2018.08.24 at 19h 08m 50s.xml">
+    <history-entry file="testServerCenter - 2018.08.26 at 10h 10m 17s.xml">
       <configuration name="testServerCenter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testServerCenter - 2018.08.24 at 19h 18m 42s.xml">
+    <history-entry file="testServerCenter - 2018.08.26 at 10h 10m 24s.xml">
       <configuration name="testServerCenter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testServerCenter - 2018.08.24 at 19h 26m 45s.xml">
+    <history-entry file="testServerCenter - 2018.08.26 at 10h 40m 20s.xml">
       <configuration name="testServerCenter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testServerCenter - 2018.08.24 at 19h 34m 37s.xml">
+    <history-entry file="testServerCenter - 2018.08.26 at 13h 49m 22s.xml">
       <configuration name="testServerCenter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testServerCenter - 2018.08.24 at 20h 01m 08s.xml">
+    <history-entry file="testServerCenter - 2018.08.26 at 14h 33m 30s.xml">
       <configuration name="testServerCenter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="testServerCenter - 2018.08.24 at 21h 37m 18s.xml">
+    <history-entry file="testServerCenter - 2018.08.26 at 14h 36m 25s.xml">
+      <configuration name="testServerCenter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testServerCenter - 2018.08.26 at 15h 22m 58s.xml">
+      <configuration name="testServerCenter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="testServerCenter - 2018.08.26 at 17h 54m 34s.xml">
       <configuration name="testServerCenter" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125235000" />
+    <option name="totallyTimeSpent" value="136931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="532" y="0" width="1395" height="1057" extended-state="0" />
+    <frame x="559" y="0" width="1368" height="1057" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.14755352" />
       <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.2140575" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -928,7 +883,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49935567" visible="true" weight="0.29609543" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49935567" weight="0.29609543" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47630057" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -936,7 +891,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.329718" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3362256" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33586133" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5006443" side_tool="true" weight="0.3125721" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286334" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3286334" />
@@ -946,7 +901,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Database" order="6" sideWeight="0.79422385" visible="true" weight="0.11161049" />
+      <window_info anchor="right" id="Database" order="6" sideWeight="0.79422385" visible="true" weight="0.2056575" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.20213577" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.20577617" side_tool="true" weight="0.17118864" />
@@ -1037,7 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/auth_level" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1092,34 +1046,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/WebFunctionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/mybatis/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/AuthorLevelMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="51" selection-start-line="3" selection-start-column="51" selection-end-line="3" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="50" lean-forward="true" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1133,45 +1063,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/DatabaseFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/test/DiscardServerHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/test/DiscardServerHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/table/UserTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/test/TimeServerHandler.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/mybatis/MybatisClient.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/account/UserAuthorityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/RPCServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/server/RPCServerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/NettyServerCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/auth_level" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/mybatis/MybatisProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
+        <state relative-caret-position="456">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/table/UserTable.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/mybatis/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/WebFunctionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/ServerCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1186,138 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/test/TimeServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/platform/PlatformServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/server/RPCServerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-358">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/mybatis/MybatisClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/database/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/ServerCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/NettyServerCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://4e1a7deb-ec73-41cd-a393-4e59c5e56e5b/schema/byq/table/cloud_user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/server/handler/RPCServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/top/banyaoqiang/rpcserver/service/account/UserAuthorityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="44" column="20" lean-forward="true" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#loginByJDBC#0;class#UserAuthorityServiceImpl#0" />
-          </folding>
         </state>
       </provider>
     </entry>

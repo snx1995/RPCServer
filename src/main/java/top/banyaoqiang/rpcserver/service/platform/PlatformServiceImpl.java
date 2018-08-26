@@ -26,4 +26,10 @@ public class PlatformServiceImpl implements PlatformService {
         WebFunctionMapper mapper = MybatisProxy.create(WebFunctionMapper.class);
         return mapper.selectLimitedFunctions(i);
     }
+
+    @Override
+    public List<WebFunction> getAllFunctions() {
+        WebFunctionMapper mapper = MybatisProxy.create(WebFunctionMapper.class);
+        return mapper.selectAll();
+    }
 }
